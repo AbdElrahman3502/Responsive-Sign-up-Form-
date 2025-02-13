@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Sign Up Form </title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- Project Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+
+  <!-- The Moon -->
+  <div class="moon">
+    <div class="a">
+    </div>
+    <div class="e">
+    </div>
+  </div>
+
+  <!-- The Sun -->
+  <div class="sun">
+    <i class="fas fa-sun"></i>
+  </div>
+
+  <form class="container">
+    <h1 id="title"> Sign Up </h1>
+
+    <div class="content">
+      <input type="text" id="name" placeholder="Username" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="pass" placeholder="Password" required>
+      <input type="password" id="confirm" placeholder="Confirm Password" required>
+    </div>
+
+    <div class="remember">
+      <input type="checkbox" name="remem" id="remem">
+      <label for="remem"> Remember Password </label><br>
+    </div>
+
+    <button id="btn" onclick="clicked()"> Sign Up </button>
+
+    <div class="footer">
+      <p>
+        Already Have Account ?
+      </p>
+      <a href="#"> Sign In </a>
+    </div>
+  </form>
+
+  <!-- JS File -->
+  <script src="/main.js">
+  </script>
+
+</body>
+</html>
